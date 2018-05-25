@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> -->
+  </script>
+    <link href="http://hayageek.github.io/jQuery-Upload-File/4.0.11/uploadfile.css" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="http://hayageek.github.io/jQuery-Upload-File/4.0.11/jquery.uploadfile.min.js"></script>
+</head>
+<body>
+  <div id="fileuploader">Upload</div>
+</body>
+<script>
+$(document).ready(function()
+{
+  $("#fileuploader").uploadFile({
+  url:"http://localhost:3000/webhooks/telegram_Ymn0xHHAp2BPyQ_IiVETBw",
+  fileName:"image"
+  });
+});
+</script>
+</html>
